@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  height: 50px;
+}
+body {
+  background-image: url("./img/hero-bg.png");
+  font-family: "Inter";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+ul {
+  list-style-type: none;
+  /* display: flex; */
+}
+
+ul > li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ul>li>a:hover {
+  color: rgb(41, 127, 219);
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 60px;
+}
+
+button {
+  background-color: #3f37c9;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-area {
+  margin-top: 20px;
+}
+
+#hero-img {
+  width: 500px;
+}
+h2 {
+  color: #326f27;
+}
+
+h1 {
+  font-size: 40px;
+  color: #ffa72298;
+}
+
+#sub-title {
+  margin-top: 20px;
+  color: grey;
+}
+#sub_heading{
+    font-size: 35px ;
+    
+}
+
+.section_heading{
+    font-size: 35px ;
+    color: #576cf8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/* Skill section */
+
+section{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.card_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: #3F3F3F80;
+    padding: 20px;
+    margin: 10px 15px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.card_heading{
+    text-align: center;
+    color: #D336F8;
+}
+.card_description{
+    padding: 25px 15px;
+    color: #cdcdcd;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.card_btn{
+    background-color: #323232;
+    border: 1px solid #D26AEB;
+    border-radius: 4px;
+    color: #D336F8;
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+
+
+}
+/* Prod section:: */
+.product_case{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.product_card{
+    background-color: #3F3F3F80;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #D336F8;
+    height: 120px;
+    position: relative;
+}
+
+.prod_title{
+    color: #D336F8;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.prod_icon{
+    height: 40px !important;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
