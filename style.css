@@ -164,3 +164,16 @@ section{
     bottom: 20px;
     right: 20px;
 }
+
+@media screen and (max-width: 500px){
+  .hero{
+    flex-direction: column;
+  }
+  header>nav{
+    display: none;
+  }
+  section{
+    width: 400px;
+    margin: 0 auto;
+  }
+}
